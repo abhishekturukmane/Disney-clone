@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0" />
+    <title>Disney+clone</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+<body>
+
+        <nav class="navbar">
+            <img src="images/logo.png" class="brand-logo" alt="">
+            <ul class="nav-links">
+                <li class="nav-items"><a href="#">TV</a></li>
+                <li class="nav-items"><a href="#">Movies</a></li>
+                <li class="nav-items"><a href="#">Sports</a></li>
+                <li class="nav-items"><a href="#">Premium</a></li>
+            </ul>
+
+            <div class="right-container">
+                <input type="text" class="search-box" placeholder="search">
+                <button class="sub-btn">SUBSCRIBE</button>
+                <a href="#" class="login-link">LOGIN</a>
+            </div>
+        </nav>
+        <div class="carousel-container">
+            <div class="carousel" >
+
+               <!-- <div class="slider">
+                    <div class="slide-content">
+                        <h1 class="movie-title">Loki</h1>
+                        <p class="movie-des">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
+                            desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        </p>
+                    </div>
+                    <img src="images/slider 1.png" alt="">
+                </div> -->
+
+            </div>
+        </div>
+        <div class="video-card-container">
+            <div class="video-card">
+                <img src="images/disney.png" class="video-card-image" alt="" />
+                <video src="videos/disney (1).mp4" muted loop class="card-video"></video>
+            </div>
+
+            <div class="video-card">
+                <img src="images/pixar.png" class="video-card-image" alt="" />
+                <video src="videos/pixar.mp4" muted loop class="card-video"></video>
+            </div>
+
+            <div class="video-card">
+                <img src="images/marvel.png"  class="video-card-image" alt="" />
+                <video src="videos/marvel (1).mp4" muted loop class="card-video"></video>
+            </div>
+
+            <div class="video-card">
+                <img src="images/star-wars.png" class="video-card-image"  alt="" />
+                <video src="videos/star-war.mp4" muted loop class="card-video"></video>
+            </div>
+
+            <div class="video-card">
+                <img src="images/geographic.png" class="video-card-image" alt="" />
+                <video src="videos/geographic.mp4" muted loop class="card-video"></video>
+            </div>
+        </div>
+        <h1 class="title">Recommended For You</h1>
+            <div class="movies-list">
+                <button class="pre-btn" title="btn">
+                    <img src="images/pre.png" alt="">
+                </button>
+                <button class="nxt-btn" title="btn">
+                    <img src="images/nxt.png" alt="">
+                </button>
+
+                <div class="card-container">
+                    <!--poster1-->
+                    <div class="card">
+                        <img src="images/poster 1.png" class="card-img" alt="">
+                        <div class="card-body">
+                            <h2 class="name">movie name</h2>
+                            <h6 class="des">Lorem ipsum dolan sit amet.</h6>
+                            <button class="watchlist-btn">add to watchlist</button>
+                        </div>
+                    </div>
+                    <!--poster2-->
+                    <div class="card">
+                        <img src="images/poster 2.png" class="card-img" alt="">
+                        <div class="card-body">
+                            <h2 class="name">movie name</h2>
+                            <h6 class="des">Lorem ipsum dolan sit amet.</h6>
+                            <button class="watchlist-btn">add to watchlist</button>
+                        </div>
+                    </div>
+                    <!--poster3-->
+                    <div class="card">
+                        <img src="images/poster 3.png" class="card-img" alt="">
+                        <div class="card-body">
+                            <h2 class="name">movie name</h2>
+                            <h6 class="des">Lorem ipsum dolan sit amet.</h6>
+                            <button class="watchlist-btn">add to watchlist</button>
+                        </div>
+                    </div>
+                    <!--poster4-->
+                    <div class="card">
+                        <img src="images/poster 4.png" class="card-img" alt="">
+                        <div class="card-body">
+                            <h2 class="name">movie name</h2>
+                            <h6 class="des">Lorem ipsum dolan sit amet.</h6>
+                            <button class="watchlist-btn">add to watchlist</button>
+                        </div>
+                    </div>
+                    <!--poster5-->
+                    <div class="card">
+                        <img src="images/poster 5.png" class="card-img" alt="">
+                        <div class="card-body">
+                            <h2 class="name">movie name</h2>
+                            <h6 class="des">Lorem ipsum dolan sit amet.</h6>
+                            <button class="watchlist-btn">add to watchlist</button>
+                        </div>
+                    </div>
+
+                    <!--poster6-->
+                    <div class="card">
+                        <img src="images/poster 6.png" class="card-img" alt="">
+                        <div class="card-body">
+                            <h2 class="name">movie name</h2>
+                            <h6 class="des">Lorem ipsum dolan sit amet.</h6>
+                            <button class="watchlist-btn">add to watchlist</button>
+                        </div>
+                    </div>
+
+                    <!--poster7-->
+                    <div class="card">
+                        <img src="images/poster 7.png" class="card-img" alt="">
+                        <div class="card-body">
+                            <h2 class="name">movie name</h2>
+                            <h6 class="des">Lorem ipsum dolan sit amet.</h6>
+                            <button class="watchlist-btn">add to watchlist</button>
+                        </div>
+                    </div>
+                    <!--poster8-->
+                    <div class="card">
+                        <img src="images/poster 8.png" class="card-img" alt="">
+                        <div class="card-body">
+                            <h2 class="name">movie name</h2>
+                            <h6 class="des">Lorem ipsum dolan sit amet.</h6>
+                            <button class="watchlist-btn">add to watchlist</button>
+                        </div>
+                    </div>
+                    <!--poster9-->
+                    <div class="card">
+                        <img src="images/poster 9.png" class="card-img" alt="">
+                        <div class="card-body">
+                            <h2 class="name">movie name</h2>
+                            <h6 class="des">Lorem ipsum dolan sit amet.</h6>
+                            <button class="watchlist-btn">add to watchlist</button>
+                        </div>
+                    </div>
+                    <!--poster10-->
+                    <div class="card">
+                        <img src="images/poster 10.png" class="card-img" alt="">
+                        <div class="card-body">
+                            <h2 class="name">movie name</h2>
+                            <h6 class="des">Lorem ipsum dolan sit amet.</h6>
+                            <button class="watchlist-btn">add to watchlist</button>
+                        </div>
+                    </div>
+                    <!--poster11-->
+                    <div class="card">
+                        <img src="images/poster 11.png" class="card-img" alt="">
+                        <div class="card-body">
+                            <h2 class="name">movie name</h2>
+                            <h6 class="des">Lorem ipsum dolan sit amet.</h6>
+                            <button class="watchlist-btn">add to watchlist</button>
+                        </div>
+                    </div>
+                    <!--poster12-->
+                    <div class="card">
+                        <img src="images/poster 12.png" class="card-img" alt="">
+                        <div class="card-body">
+                            <h2 class="name">movie name</h2>
+                            <h6 class="des">Lorem ipsum dolan sit amet.</h6>
+                            <button class="watchlist-btn">add to watchlist</button>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+
+            <h1 class="title">Popular Shows</h1>
+            <div class="movies-list">
+                <button class="pre-btn" title="btn">
+                    <img src="images/pre.png" alt="">
+                </button>
+                <button class="nxt-btn" title="btn">
+                    <img src="images/nxt.png" alt="">
+                </button>
+
+                <div class="card-container">
+                    <!--poster1-->
+                    <div class="card">
+                        <img src="images/poster 1.png" class="card-img" alt="">
+                        <div class="card-body">
+                            <h2 class="name">movie name</h2>
+                            <h6 class="des">Lorem ipsum dolan sit amet.</h6>
+                            <button class="watchlist-btn">add to watchlist</button>
+                        </div>
+                    </div>
+                    <!--poster2-->
+                    <div class="card">
+                        <img src="images/poster 2.png" class="card-img" alt="">
+                        <div class="card-body">
+                            <h2 class="name">movie name</h2>
+                            <h6 class="des">Lorem ipsum dolan sit amet.</h6>
+                            <button class="watchlist-btn">add to watchlist</button>
+                        </div>
+                    </div>
+                    <!--poster3-->
+                    <div class="card">
+                        <img src="images/poster 3.png" class="card-img" alt="">
+                        <div class="card-body">
+                            <h2 class="name">movie name</h2>
+                            <h6 class="des">Lorem ipsum dolan sit amet.</h6>
+                            <button class="watchlist-btn">add to watchlist</button>
+                        </div>
+                    </div>
+                    <!--poster4-->
+                    <div class="card">
+                        <img src="images/poster 4.png" class="card-img" alt="">
+                        <div class="card-body">
+                            <h2 class="name">movie name</h2>
+                            <h6 class="des">Lorem ipsum dolan sit amet.</h6>
+                            <button class="watchlist-btn">add to watchlist</button>
+                        </div>
+                    </div>
+                    <!--poster5-->
+                    <div class="card">
+                        <img src="images/poster 5.png" class="card-img" alt="">
+                        <div class="card-body">
+                            <h2 class="name">movie name</h2>
+                            <h6 class="des">Lorem ipsum dolan sit amet.</h6>
+                            <button class="watchlist-btn">add to watchlist</button>
+                        </div>
+                    </div>
+
+                    <!--poster6-->
+                    <div class="card">
+                        <img src="images/poster 6.png" class="card-img" alt="">
+                        <div class="card-body">
+                            <h2 class="name">movie name</h2>
+                            <h6 class="des">Lorem ipsum dolan sit amet.</h6>
+                            <button class="watchlist-btn">add to watchlist</button>
+                        </div>
+                    </div>
+
+                    <!--poster7-->
+                    <div class="card">
+                        <img src="images/poster 7.png" class="card-img" alt="">
+                        <div class="card-body">
+                            <h2 class="name">movie name</h2>
+                            <h6 class="des">Lorem ipsum dolan sit amet.</h6>
+                            <button class="watchlist-btn">add to watchlist</button>
+                        </div>
+                    </div>
+                    <!--poster8-->
+                    <div class="card">
+                        <img src="images/poster 8.png" class="card-img" alt="">
+                        <div class="card-body">
+                            <h2 class="name">movie name</h2>
+                            <h6 class="des">Lorem ipsum dolan sit amet.</h6>
+                            <button class="watchlist-btn">add to watchlist</button>
+                        </div>
+                    </div>
+                    <!--poster9-->
+                    <div class="card">
+                        <img src="images/poster 9.png" class="card-img" alt="">
+                        <div class="card-body">
+                            <h2 class="name">movie name</h2>
+                            <h6 class="des">Lorem ipsum dolan sit amet.</h6>
+                            <button class="watchlist-btn">add to watchlist</button>
+                        </div>
+                    </div>
+                    <!--poster10-->
+                    <div class="card">
+                        <img src="images/poster 10.png" class="card-img" alt="">
+                        <div class="card-body">
+                            <h2 class="name">movie name</h2>
+                            <h6 class="des">Lorem ipsum dolan sit amet.</h6>
+                            <button class="watchlist-btn">add to watchlist</button>
+                        </div>
+                    </div>
+                    <!--poster11-->
+                    <div class="card">
+                        <img src="images/poster 11.png" class="card-img" alt="">
+                        <div class="card-body">
+                            <h2 class="name">movie name</h2>
+                            <h6 class="des">Lorem ipsum dolan sit amet.</h6>
+                            <button class="watchlist-btn">add to watchlist</button>
+                        </div>
+                    </div>
+                    <!--poster12-->
+                    <div class="card">
+                        <img src="images/poster 12.png" class="card-img" alt="">
+                        <div class="card-body">
+                            <h2 class="name">movie name</h2>
+                            <h6 class="des">Lorem ipsum dolan sit amet.</h6>
+                            <button class="watchlist-btn">add to watchlist</button>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        <script src="ind.js" async></script>
+
+</body>
+</html>
